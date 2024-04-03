@@ -28,6 +28,7 @@
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
+    text-align: center;
 }
 
 body {
@@ -53,15 +54,14 @@ body {
 }
 
 footer {
-    border-top: 8px solid #490464;
-    border-left: 8px solid #490464;
-    border-right: 8px solid #490464;
+ 
     width: 93.9%;
     height: max-content;
     display: flex;
     flex-direction: row;
     margin: auto;
     border-radius: 25px;
+    margin-top: 25px
 }
 
 
@@ -107,7 +107,7 @@ header div a:hover{
 #infobox p{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #introwords {
@@ -118,6 +118,7 @@ header div a:hover{
     color: rgb(236, 184, 8);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 25px;  
 }
 
 #mapaddress {
